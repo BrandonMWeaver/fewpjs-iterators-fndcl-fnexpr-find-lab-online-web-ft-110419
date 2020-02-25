@@ -4,6 +4,8 @@ function testFunc() {
   return "hi";
 }
 
-function superBowlWin(record) {
-  
+function superBowlWin(records) {
+  records.find(function(record) {
+    return record.result === "W";
+  });
 }
