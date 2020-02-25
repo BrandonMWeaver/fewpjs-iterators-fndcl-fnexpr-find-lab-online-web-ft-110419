@@ -6,6 +6,6 @@ function testFunc() {
 
 function superbowlWin(records) {
   records.find(function(record) {
-    return record
+    return record.find()
   });
 }
